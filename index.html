@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Cart Updates</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+
+      h1 {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      button {
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      #cart {
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Real-Time Cart Updates</h1>
+
+    <!-- Add items to cart -->
+    <button onclick="addToCart('Product A')">Add Product A to Cart</button>
+    <button onclick="addToCart('Product B')">Add Product B to Cart</button>
+    <button onclick="addToCart('Product C')">Add Product C to Cart</button>
+
+    <!-- Cart display -->
+    <div id="cart">
+      <h2>Cart</h2>
+      <!-- Cart items will be displayed here -->
+    </div>
+
+    <script src="broadcast.js"></script>
+  </body>
+</html>
