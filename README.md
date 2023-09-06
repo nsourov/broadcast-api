@@ -6,4 +6,4 @@ Communicating between different tabs or windows in a web browser is super import
 
 The Broadcast Channel API is like a special communication tool for web browsers. It allows different tabs or windows in our browser to talk to each other. It's a way for them to share information instantly. Think of it as a secret chat system just for our browser. It helps web apps work together and stay in sync, making our online experience smoother.
 
-**[READ THIS ARTICLE](https://naimur.dev/broadcastchannel-api-sending-messages-between-tabs)** to learn what is Broadcast Channel API and how it works and how we can make things real-time using this.
+**[READ THIS ARTICLE](https://naimur.dev/broadcastchannel-api)** to learn what is Broadcast Channel API and how it works and how we can make things real-time using this.
